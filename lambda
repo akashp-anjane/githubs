@@ -1,0 +1,5 @@
+x=int(input('enter the vlaue of x:')) 
+y=int(input('enter the vlaue of y:')) 
+add = lambda x, y: x + y
+result = add(x,y)
+print(result)  
